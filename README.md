@@ -1,4 +1,3 @@
-# Chat-App
 ChatApp
 A real-time chat application built using Django, Django Channels, and WebSockets.
 
