@@ -15,7 +15,7 @@ Clone the project repository to your local machine.
 
 bash
 Copy
-git clone https://[github.com/your-username/chatapp.git](https://github.com/Nandita-Sola/Chat-App)
+git clone https://github.com/Nandita-Sola/Chat-App
 Navigate to the project folder:
 
 bash
