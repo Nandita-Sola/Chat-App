@@ -1,0 +1,18 @@
+<!-- chatapp/templates/chat/chat.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chat Room</title>
+    <script type="text/javascript" src="{% static 'chat/chat.js' %}"></script>  <!-- Include the chat.js script -->
+</head>
+<body>
+    <h1>Welcome to the chat room!</h1>
+    
+    <textarea id="chat-log" cols="100" rows="30" readonly></textarea><br><br>
+
+    <input id="chat-message-input" type="text" placeholder="Type a message...">
+
+</body>
+</html>

@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome to the Chat App</title>
+</head>
+<body>
+    <h1>Welcome to the Chat App!</h1>
+    <form action="{% url 'chat:room' room_name='general' %}">
+        <button type="submit">Enter the General Chat Room</button>
+    </form>
+</body>
+</html>
